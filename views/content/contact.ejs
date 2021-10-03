@@ -2,6 +2,60 @@
     <h1>
       <%= title %>
     </h1>
-    <p>Welcome to <%= title %> page
-    </p>
+    
+    
+
+ 
+    <main>
+
+   <aside>
+    <figure>
+    
+		<br>Phone: (287) 652-8621
+		<br>Email:<a href="mailto:pduru@my.centennialcollege.ca">pduru@my.centennialcollege.ca</a>
+    </figure>
+  </aside>
+
+
+    <h2><span lang="en-ca">Contact us for excellent software projects</span></h2>
+	<form method="post" action="mailto:pduru@my.centennialcollege.ca" method="post">
+    
+    <table cellspacing="4" cellpadding="5" width="100%" height="30%">
+      <colgroup>
+          <col width="50%" align="left" />
+          <col width="50%" />
+          </colgroup>
+    <tr> <td>
+    <label>First Name: </label> 
+    <input type="text" id="firstname" name="firstname" size="27" required="required"></td> <td>
+    
+    <label>Last Name: </label>
+    <input type="text" id="lastname" name="lastname" size="30" required="required"> </td></tr><br>
+
+    <tr><td>
+    <label>Your Phone Number: </label>
+    <input type="text" id="phonenum" name="phonenum" size="15" required="required"></td><td>
+	  
+    <label>Your Email:</label>
+    <input name="txtEmail" type="email" size="30" required="required" /></td></tr>
+    </table>
+
+   <label>Service Type: </label>
+    <select name="servtype" id="servtype" size="1">
+        <option value="Web"> Website Design</option>
+        <option value="Analytics">Data Analytics</option>
+        <option value="Database">Database Design and Administration</option>
+    </select> <br><br>
+                        
+<label>Please drop a message. </label> <br>   
+  <textarea id="comment" name="opinion"  id="comment" rows="5" cols="50"> </textarea><br><br>
+                        
+  <button type="submit" value="Submit">Submit your information</button>
+  <button type="reset" value="Reset">Clear to start again</button>
+
+		<!-- <span lang="en-ca">...</span> -->
+  
+  </form>
+    </main>
+ 
   </div>
