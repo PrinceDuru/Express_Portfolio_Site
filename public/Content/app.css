@@ -1,4 +1,9 @@
 /* custom css goes here */
+/* File name: app.css
+Name: Prince Duru
+Student Id: 301167756
+Date: 10/03/2021
+ExpressPortfolio Site */
 
 .about-img img{
 	width:30%;
@@ -31,4 +36,9 @@
   .project-text {
     /* font-size: 20px; */
     padding-left: 20px;
+  }
+
+  ul img{
+    width:20%;
+	height: 110px;
   }
