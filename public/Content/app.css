@@ -1,1 +1,8 @@
 /* custom css goes here */
+
+img{
+	width:30%;
+	height: 250px;
+	align-self: center;
+	border-radius: 30px;
+	}
